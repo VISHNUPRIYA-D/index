@@ -67,7 +67,7 @@ body{
    place-items: center;
     border: 1px solid transparent;
     padding-top: 50px;
-    transform: translateX(25%);
+    margin-left: 5%;
 }
 .intro{
     font-size: 25px;
@@ -178,7 +178,7 @@ body{
 }
 .list {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(330px,2fr));
+    grid-template-columns: repeat(2,1fx);
     grid-gap:40px;
     margin: 20px;
     color: black;
